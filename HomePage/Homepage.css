@@ -1,0 +1,130 @@
+/* Specific styling for home page */
+#map-table 
+{
+    background: rgba(0, 0, 0, 0.829);
+    width: 100%;
+}
+
+td#addresscenter
+{
+    text-align: center;
+    width: 30%;
+}
+
+p.mapaddress
+{
+    color: white;
+    font-size: 20px;
+}
+
+#p-1{
+    font-size: 30px;
+    text-align: center;
+}
+
+/*---------Home Page Buttons----------*/
+.button-1{
+    border-style: solid;
+    border-color: white;
+    font-size: 15pt;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 20px;
+    padding: 7px;
+    height: 100%;
+    text-align: center;
+}
+.button-1:hover {
+    background-color: rgba(0, 0, 0, 0.733);
+}
+#buttonTable{
+    left: 50%;
+}
+.buttonTable-1{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*---------Slide show----------*/
+
+/*Image sizing */
+img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    text-align: center;
+}
+
+.homepageTitle{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72pt;
+    color: white;
+    text-shadow: rgb(0 0 0 / 80%) 3px 2px 9px;
+}
+
+.homepageTitle-2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30pt;
+    color: white;
+    text-shadow: rgb(0 0 0 / 80%) 3px 2px 9px;
+}
+
+/* Dots to move through the pictures */
+/* .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:  rgba(131, 129, 129, 0.514);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+.dot:hover {
+    background-color: rgb(37, 36, 36);
+}  */
+
+.container { 
+    position: relative;
+    margin: auto;
+    object-fit: cover;
+    text-align: center;
+}
+
+.active-1 {
+    background-color: #da2424af;
+}
+
+/* Fading animation when picture changes */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+* {box-sizing: border-box;}
+
+.theseSlides {
+   display: none;
+}
+
+
