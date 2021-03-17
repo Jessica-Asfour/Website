@@ -9,9 +9,15 @@
 }
 
 form {
-    background-color: white;
     padding: 15px;
     text-align: center;
+    color: black;
+}
+
+form.orderMenu{
+    padding: 15px;
+    text-align: center;
+    color: white;
 }
 
 #big-div {
@@ -19,8 +25,17 @@ form {
 }
 
 #menu {
-    min-width: 350px;
+    width: auto;
+    height: auto;
     border: black solid 5px;
+    background-image: url("order-background.jpg"); 
+}
+
+#order-table{
+    background-color: rgba(0, 0, 0, 0.521); 
+    width: auto;
+    min-height: 800px;
+    border-spacing: 50px;
 }
 
 .menu-header {
@@ -58,12 +73,12 @@ p#tip-amount {
 }
 
 table#menulist{
-    /* width:100%; */
     margin: auto;
     background-color: rgba(0, 0, 0, 0.904);
     border-collapse: separate;
     border-spacing: 10px;
     color: white;
+    width: 600px;
 }
 
 h1.menutitle{
@@ -82,8 +97,8 @@ img.menuitem{
     border-style: solid;
     border-color: black;
     transition: transform .2s; /* Animation */
-    width: 310px;
-    height: 260px;
+    width: 300px;
+    height: 250px;
     margin: 0 auto;
 }
 
@@ -105,9 +120,9 @@ ul.nobullet{
 
 h2#grocery{
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: underline;
-    text-decoration-color: black;
+    text-decoration-color: white;
 }
 
 /*just added text fix this*/
@@ -115,7 +130,7 @@ h2#grocery{
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    transform: translate(5%, -50%);
+    transform: translate(25%, -90%);
     text-align: center;
     width: 200px;
 }

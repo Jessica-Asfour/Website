@@ -1,6 +1,6 @@
 {
     "__created_at": 1607328594,
-    "__updated_at": 1613691914,
+    "__updated_at": 1614464227,
     "data": {
         "name": "Jane Doe",
         "email": "abc@hotmail.com",
@@ -34,7 +34,9 @@
             "Duck Mazemen",
             "Uni Mazemen",
             "Otto Ramen",
-            "Mushroom Mazemen"
+            "Mushroom Mazemen",
+            "Spicy Tofu",
+            "Ikura Tofu"
         ],
         "nbrReserves": 2,
         "date": [

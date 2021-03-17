@@ -25,7 +25,7 @@
 
 <body>
     <?php include("../HeaderFooter/header.php"); ?>
-    <div class="background">
+    <div style="background-color: rgba(0, 0, 0, 0.910);">
         <div class="pageTitle">
             <header class="pageHeader"> Take-Out </header>
         </div>

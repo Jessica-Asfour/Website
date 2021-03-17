@@ -14,7 +14,7 @@
                 <p class = "footerp"><a href="https://www.google.ca/maps/place/Otto+Bistro/@45.5215787,-73.5874139,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91bd23ac3a5bf:0x7c1274fc23321346!8m2!3d45.521575!4d-73.5852252" class="footeraddr" target="_blank">143 Mont-Royal Est </a></p>
                 <p class = "footerp"><a href="https://www.google.ca/maps/place/Otto+Bistro/@45.5215787,-73.5874139,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91bd23ac3a5bf:0x7c1274fc23321346!8m2!3d45.521575!4d-73.5852252" class="footeraddr" target="_blank"> Montreal, QC, Canada H2T 1N9 </a></p>
             </td>
-            <td rowspan = "2" style="width: 25%;">
+            <td rowspan = "2" style="width: 30%;">
                 <h2> Opening Hours </h2>
                 <p><strong>Mon:</strong> CLOSED</p>
                 <p><strong>Tues:</strong> 12:00 PM - 2:00 PM/ 5:00 PM - 8:00 PM</p>
