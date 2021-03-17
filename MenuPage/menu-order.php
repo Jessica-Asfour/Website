@@ -62,7 +62,7 @@
             }
 
             result = result.toFixed(2);
-            document.getElementById("menu-result").value = result;
+            document.getElementById("menu-result").innerText = "Total: $" + result;
             document.getElementById("bill").value = result;
         }
     </script>
@@ -193,7 +193,8 @@
                         <input id="button" type="button" onClick="calculate_menu()" Value="CALCULATE" />
 
                         <br>
-                        <p>Total:&nbsp;$<input type="text" name="menu-result" id="menu-result"></input></p>
+                        
+                        <p name="menu-result" id="menu-result">Total: $0.00</p>
 
                         <p>Ready to order? Click here:</p>
 
